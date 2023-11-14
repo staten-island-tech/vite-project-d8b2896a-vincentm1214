@@ -9,7 +9,6 @@ padding: 0;
 .card{
 height: 50vh;
 width: 23%;
-background-color: rgba(65, 65, 65, 0.3);
 display: flex;
 flex-direction: column;
 align-items: center;
