@@ -4,8 +4,18 @@ import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.js'
 
 const DOMSelectors = {
-  card: document.querySelector("#card")
+  card: document.querySelector("#card"),
+  lincoln: document.querySelector(".lincoln"),
+  trump: document.querySelector(".trump"),
+  obama: document.querySelector(".obama"),
+  nixon: document.querySelector(".nixon"),
+  jackson: document.querySelector(".jackson"),
+  mckinley:document.querySelector(".mckinley"),
+  garfield:document.querySelector(".garfield"),
+  kennedy:document.querySelector(".kennedy"),
 }
+
+
 
 
 
