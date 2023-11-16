@@ -15,6 +15,7 @@ const DOMSelectors = {
   kennedy:document.querySelector(".kennedy"),
 }
 
+Array
 
 
 
