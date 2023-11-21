@@ -1,20 +1,18 @@
-import './style.css'
+import "../css/style.css"
 let mode = "light";
 const body = document.querySelector("body");
 const toggleButton = document.getElementById("toggle-mode");
-const priceFilter = document.getElementById("price-filter");
-const ageFilter = document.getElementById("age-filter");
-const ratingFilter = document.getElementById("rating-filter");
-const constructionFilter = document.getElementById("construction")
-const dollsFilter = document.getElementById("dolls&accessories")
-const vehiclesFilter = document.getElementById("vehicles")
-const outdoorFilter = document.getElementById("outdoorplay")
-const boardFilter = document.getElementById("boardgames")
-const infantFilter = document.getElementById("infanttoys")
-const actionFilter = document.getElementById("actionfigures")
-const educationalFilter = document.getElementById("educationaltoys")
-const songApp = document.getElementById('app');
-const songInv = [
+const commissionfilter = document.getElementById("comm-filter");
+const nocommissionfilter = document.getElementById("noncomm-filter");
+const leoneedfilter = document.getElementById("leoneed-filter");
+const moremorejumpfilter = document.getElementById("mmj-filter")
+const vividbadsquadfilter = document.getElementById("vbs-filter")
+const wonderlandxshowtimefilter = document.getElementById("wxs-filter")
+const niightcore2500filter = document.getElementById("n25-filter")
+const vocaloidfilter = document.getElementById("vocal-filter")
+const songapp = document.getElementById('app');
+const songInventory = [
+
   {
     name: "Cinema",
     Commissioned: true,
@@ -108,7 +106,7 @@ const songInv = [
   {
     name: "Darling Dance",
     commissioned:false,
-    Group: "More More JUmp",
+    Group: "More More Jump",
     Artist:"Kairiki Bear",
   },
   {
@@ -116,4 +114,16 @@ const songInv = [
     commissioned:false,
     Group: "Vivid Bad Squad",
     Artist:"NayutalieN",
-  }]
+  },
+
+
+];
+
+console.log(songInventory);
+
+function makecard(songs){
+  const card=
+  document.createElement("div");
+  card.classList.add('song-card');
+  toycard.textContent=`${s}`
+}
