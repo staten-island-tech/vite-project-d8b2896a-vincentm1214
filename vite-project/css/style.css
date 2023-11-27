@@ -36,4 +36,10 @@
     --primary:var(--vbs)
 }
 
-/* .fifth */
+.fifth{
+    --primary:var(--wxs)
+} 
+
+.fifth{
+    --primary:var(var(--nijo))
+} 
