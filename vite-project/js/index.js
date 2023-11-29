@@ -6,10 +6,10 @@ import { songInventory } from "./arr";
 const createsong= function makesong(song) {
   DOMSelectors.containers.insertAdjacentHTML("beforeend",
 `<div class="container" id=allcontainer>
-  ${song.name}
-  ${song.commissioned}
-  ${song.Group}
-  ${song.Artist}
+  <h2>${song.name}</h2>
+  <h3>${song.commissioned}</h3>
+  <h3>${song.Group}</h3>
+  <h3>${song.Artist}</h3>
   <div>`
   )
  songCards.insertAdjacentHTML('beforeend', songlist);
@@ -21,7 +21,7 @@ const createsong= function makesong(song) {
    songCard.classList.add('song-card');
   
    songCard.textContent = `${song.name} ${song.commissioned} ${song.Group} ${song.Artist} `;
-   songCards.appendChild(songCard);
+   songCard.appendChild(songCard);
  }
  function showmusic(songs){
    songCards.textContent = ``;
